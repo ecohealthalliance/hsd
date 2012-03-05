@@ -11,7 +11,7 @@ graphics.off()       # Close graphics windows
 
 # Todo(EHA) turn all models into a single loop with multipage output
 
-dr<-read.table(file="data/eid08_drivers_19OCT11.csv",sep=",",header=TRUE)
+dr<-read.table(file="data/gridded_eids_drivers.csv",sep=",",header=TRUE)
 
 # repeated regression analysis and scaling according to Jones et al 2008 to verify methods
 # original values and coef are in the right range
